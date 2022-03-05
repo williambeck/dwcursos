@@ -6,10 +6,11 @@ function Home() {
         <div>
             <Head>
                 <title>DW - RECICLAGEM PARA CONDUTORES INFRATORES</title>
-                <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' /> 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                <script src="custom.js"></script>
+                
             </Head>
+
+            <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' /> 
+            
             <Menu />
 
             <div className=''><br></br><br></br><br></br><br></br><br></br><br></br>
@@ -21,6 +22,14 @@ function Home() {
             <p>Condições Especiais - Parcele em até 6xsem juros</p><br/>
             <p>Multiplataforma -Assista de qualquer dispositivo e quando quiser</p><br/>
             </div>
+            
+            <div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="custom.js"></script>
+            </div>
+
+
+
 
         </div>
     )

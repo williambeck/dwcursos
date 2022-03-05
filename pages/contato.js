@@ -1,51 +1,180 @@
+import { useState } from 'react';
 import Head from 'next/head';
 import Menu from '../components/Menu';
-import styles from '../styles/Cursos.module.css';
 
-function Home() {
+function Contato() {
+
+    const [dataForm, setDataForm] = useState({
+        name: '',
+        email: '',
+        subject: '',
+        content: ''
+    });
+
+    const [response, setResponse] = useState({
+        type: '',
+        mensagem: ''
+    })
+
+    const onChangeInput = e => setDataForm({ ...dataForm, [e.target.name]: e.target.value });
+
+    const sendContact = async e => {
+        e.preventDefault();
+        console.log(dataForm.email);
+
+        try {
+            const res = await fetch('http://localhost:8080/add-msg-contact', {
+                method: 'POST',
+                body: JSON.stringify(dataForm),
+                headers: { 'Content-Type': 'application/json' }
+            });
+
+            const responseEnv = await res.json();
+
+            if (responseEnv.erro) {
+                setResponse({
+                    type: 'error',
+                    mensagem: responseEnv.mensagem
+                });
+            } else {
+                setResponse({
+                    type: 'success',
+                    mensagem: responseEnv.mensagem
+                });
+
+                setDataForm({
+                    name: '',
+                    email: '',
+                    subject: '',
+                    content: ''
+                });
+            }
+        } catch (err) {
+            setResponse({
+                type: 'error',
+                mensagem: "Erro: Tente mais tarde!"
+            });
+        }
+    }
+
     return (
         <div>
             <Head>
+                <meta charSet="utf-8" />
+                <meta name="robots" content="index, follow" />
+                <meta name="description" content="Site sobre ..." />
+                <meta name="author" content="William Beck" />
+                <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
                 <title>DW - Contato</title>
-                <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' /> 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                <script src="custom.js"></script>
             </Head>
             <Menu />
-            <body className='contact-form'> </body>
-            <section className='contato'/>
-            <div className="contact-form"/>
-        <fieldset class="form-grid"/>
-          <legend>Contact me</legend>
 
-          <div className="form-group">
-            <label for="first-name">Nome</label>
-            <input type="text" name="first-name" id="first-name" placeholder="Your name"/>
-          
+            <section className="contact">
+                <div className="max-width">
+                    <h2 className="title">Contato</h2>
+                    <div className="contact-content">
+                        <div className="column left">
+                            <p>Nossos canais de contato</p>
+                            <div className="icons">
+                                <div className="row">
+                                    <i class="fas fa-user"></i>
+                                    <div className="info">
+                                        <div className="head">
+                                            Empresa
+                                        </div>
+                                        <div className="sub-title">
+                                            DW Treinamentos
+                                        </div>
+                                    </div>
+                                </div>
 
-          <div className="form-group">
-            <label for="last-name">Sobrenome</label>
-            <input type="text" name="last-name" id="last-name" placeholder="Your last name"/>
-          </div>
+                                <div className="row">
+                                  <i class="fab fa-facebook-square"></i>  
+                                    <div className="info">
+                                        <div className="head">
+                                          Facebook
+                                        </div>
+                                        <div className="sub-title">
+                                            Curta Nossa Página!
+                                        </div>
+                                    </div>
+                                </div>
 
-          <div className="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" name="email" id="email" placeholder="Your e-mail"/>
-          </div>
+                                <div className="row">
+                                <i class="fab fa-whatsapp"></i>
+                                    <div className="info">
+                                        <div className="head">
+                                               whatsapp
+                                        </div>
+                                        <div className="sub-title">
+                                        (31) 9-8999-0882
+                                        </div>
+                                    </div>
+                                </div>
 
-          <div className="form-group full-width">
-            <label for="message">Mensagem</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
-          </div>
+                                <div className="row">
+                                <i class="fab fa-instagram"></i>
+                                    <div className="info">
+                                        <div className="head">
+                                            Instagram
+                                        </div>
+                                        <div className="sub-title">
+                                        Nos Siga no Instagram!
+                                        </div>
+                                    </div>
+                                </div>
 
-          <div class="form-group full-width">
-            <button type="submit">Enviar Mensagem</button>
-          </div>
-        
-      </div>  
-    </div>
-                
-       )
+                            </div>
+                        </div>
+
+                        <div className="column right">
+                            <div className="text">
+                                Formulário de contato
+                            </div>
+
+                            {response.type === 'error' ? <p className="alert-danger">{response.mensagem}</p> : ""}
+                            {response.type === 'success' ? <p className="alert-success">{response.mensagem}</p> : ""}
+
+                            <form onSubmit={sendContact}>
+                                <div className="fields">
+                                    <div className="field name">
+                                        <input type="text" name="name" placeholder="Digite o nome" onChange={onChangeInput} value={dataForm.name} />
+                                    </div>
+                                </div>
+
+                                <div className="fields">
+                                    <div className="field name">
+                                        <input type="email" name="email" placeholder="Digite o seu melhor e-mail" onChange={onChangeInput} value={dataForm.email} />
+                                    </div>
+                                </div>
+
+                                <div className="fields">
+                                    <div className="field name">
+                                        <input type="text" name="subject" placeholder="Digite o assunto da mensagem" onChange={onChangeInput} value={dataForm.subject} />
+                                    </div>
+                                </div>
+
+                                <div className="fields">
+                                    <div className="field name">
+                                        <input type="text" name="content" placeholder="Digite o conteúdo da mensagem" onChange={onChangeInput} value={dataForm.content} />
+                                    </div>
+                                </div>
+
+                                <div className="button-area">
+                                    <button type="submit">Enviar</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="custom.js"></script>
+        </div>
+    )
 }
 
-export default Home;
+export default Contato;

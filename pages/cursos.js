@@ -9,9 +9,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
           <title>DW - Cursos</title>
-          <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' />
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-          <script src="custom.js"></script>        
+          <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' />     
       </Head>
       <Menu/><br></br>
       
@@ -96,6 +94,11 @@ export default function Home() {
 
         </div>
       </main>
+
+            <div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="custom.js"></script>
+            </div>
 
       <footer className={styles.footer}>
         {/*<a

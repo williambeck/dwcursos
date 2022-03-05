@@ -8,11 +8,9 @@ function Home() {
             <Head>
                 <title>DW - Sobre</title>
                 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' />
-
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                <script src="custom.js"></script>
             </Head>
             <Menu />
+            
             <body className='sobre'> 
             <div className=''><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h2>Quem Somos !!!</h2><br></br><br></br><br></br><br></br><br></br><br></br>
@@ -24,6 +22,11 @@ function Home() {
             </div>    
             
             </body>
+
+            <div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="custom.js"></script>
+            </div>
 
         </div>
     )

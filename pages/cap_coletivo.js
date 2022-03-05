@@ -7,12 +7,10 @@ function Home() {
             <Head>
                 <title>DW - CONDUTORES DE VEÍCULO DE TRANSPORTE COLETIVO DE PASSAGEIROS</title>
                 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' /> 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                <script src="custom.js"></script>
             </Head>
             <Menu />
 
-            <div className=''><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='cursos'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>CONDUTORES DE VEÍCULO DE TRANSPORTE COLETIVO DE PASSAGEIROS</h1><br/>
                 <p> O curso para CONDUTORES DE VEÍCULO DE TRANSPORTE COLETIVO DE PASSAGEIROS, é totalmente em EAD (Ensino a distância). O curso é voltado aos condutores que queiram regularizar a sua profissão e para os que pretendem exercê-la, o curso é de 50 h/aula e conta com um material didático voltado para a atividade.</p><br/>
                 <p>Uma nova oportunidade profissional para você motorista! </p>
@@ -26,11 +24,16 @@ function Home() {
                 <p>Sim, o DETRAN/CIRETRAN pode exigir prova presencial para esse curso.</p><br/>
             </div>
         
-            <div className=''>
+            <div className='modulo'>
                 <p>Módulo 1 – Legislação de Trânsito - 10 h/aula </p>
                 <p>Módulo 2 – Direção Defensiva - 15 h/aula</p>
                 <p>Módulo 3 – Noções de Primeiros Socorros - 10 h/aula</p>
                 <p>Módulo 4 – Relacionamento Interpessoal - 15 h/aula</p>
+            </div>
+
+            <div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="custom.js"></script>
             </div>
         
         

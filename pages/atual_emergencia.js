@@ -7,12 +7,10 @@ function Home() {
             <Head>
                 <title>DW - ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA</title>
                 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' /> 
-                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-                <script src="custom.js"></script>
             </Head>
             <Menu />
 
-            <div className=''><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='cursos'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA</h1><br></br>
                 <p>O curso de ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA, é totalmente em EAD (Ensino a distância).</p>
                 <p>O curso é voltado aos condutores que queiram regularizar a sua profissão.</p>
@@ -27,12 +25,18 @@ function Home() {
                 <p>Quem pode fazer? Possuir certificado de conclusão de curso de capacitação. Não estar cumprindo pena de suspensão do direito de dirigir, cassação da CNH, pena decorrente de crime de trânsito, bem como, estar impedido judicialmente de exercer seus direitos.</p>
             </div><br></br><br></br>
 
-            <div className=''>
+            <div className='modulo'>
                 <p>Módulo 1 – Legislação de Trânsito - 3 h/aula </p>
                 <p>Módulo 2 – Direção Defensiva - 5 h/aula</p>
                 <p>Módulo 3 – Noções de Primeiros Socorros - 3 h/aula</p>
                 <p>Módulo 4 – Relacionamento Interpessoal - 5 h/aula</p>
             </div>
+
+            <div>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <script src="custom.js"></script>
+            </div>
+
         </div>
     )
 }
