@@ -10,7 +10,7 @@ function Home() {
             </Head>
             <Menu />
 
-            <div className='cursos'><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='cap_indivisiveis'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>CONDUTORES DE VEÍCULOS DE TRANSPORTE DE CARGA INDIVISÍVEL,</h1><br/>
                 <p>O curso para CONDUTORES DE VEÍCULOS DE TRANSPORTE DE CARGA INDIVISÍVEL, é totalmente em EAD (Ensino a distância). O curso é voltado aos condutores que queiram regularizar a sua profissão e para os que pretendem exercê-la, o curso é de 50 h/aula e conta com um material didático voltado para a atividade.</p><br/>
                 <p>Uma nova oportunidade profissional para você motorista! </p>

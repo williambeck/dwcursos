@@ -10,7 +10,7 @@ function Home() {
             </Head>
             <Menu />
 
-            <div className='cursos'><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='capescolares'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>CONDUTORES DE VEÍCULOS DE TRANSPORTE DE ESCOLARES</h1> <br/>
                 <p>O curso de condutor de transporte de emergência, conforme estabelecido na Resolução 168/04 do CONTRAN, visa habilitar profissionalmente motoristas para a condução segura de veículos de emergência. Este curso é obrigatório para quem deseja atuar nesta área, forneceremos ao futuro profissional informações importantíssimas para que atue na área de forma exemplar, tornando-se um profissional competente e experiente.</p>
                 <p> O curso para CONDUTORES DE VEÍCULOS DE TRANSPORTE DE ESCOLARES, é totalmente em EAD (Ensino a distância). O curso é voltado aos condutores que queiram regularizar a sua profissão e para os que pretendem exercê-la, o curso é de 50 h/aula e conta com um material didático voltado para a atividade.</p><br/>

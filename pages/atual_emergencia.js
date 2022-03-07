@@ -10,7 +10,7 @@ function Home() {
             </Head>
             <Menu />
 
-            <div className='cursos'><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='atualemergencia'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA</h1><br></br>
                 <p>O curso de ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA, é totalmente em EAD (Ensino a distância).</p>
                 <p>O curso é voltado aos condutores que queiram regularizar a sua profissão.</p>

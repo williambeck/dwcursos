@@ -10,7 +10,7 @@ function Home() {
             </Head>
             <Menu />
 
-            <div className='cursos'><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='atual-indivisiveis'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE TRANSPORTE DE CARGA INDIVISÍVEL</h1><br></br>                <p>O curso de ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE TRANSPORTE DE CARGA INDIVISÍVEL, é totalmente em EAD (Ensino a distância).</p>
                 <p>O curso é voltado aos condutores que queiram regularizar a sua profissão.</p>
                 <p>O curso é rápido, são apenas 16 horas aula e você contará com um material didático elaborado especialmente para a sua atividade.</p>

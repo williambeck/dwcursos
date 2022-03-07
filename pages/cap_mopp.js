@@ -10,7 +10,7 @@ function Home() {
             </Head>
             <Menu />
                      
-            <div className='cursos'><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='cap_mopp'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>CONDUTORES DE VEÍCULOS DE TRANSPORTE DE PRODUTOS PERIGOSOS – MOPP</h1>
                 <p>O curso para CONDUTORES DE VEÍCULOS DE TRANSPORTE DE PRODUTOS PERIGOSOS – MOPP, é totalmente em EAD (Ensino a distância). O curso é voltado aos condutores que queiram regularizar a sua profissão e para os que pretendem exercê-la, o curso é de 50 h/aula e conta com um material didático voltado para a atividade.</p><br/>
                 <p>Uma nova oportunidade profissional para você motorista! </p><br/>

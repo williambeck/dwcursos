@@ -29,16 +29,70 @@ a {
 
 }
 body{ /* ## corpo geral de todas as paginas ## */
-    background-color: #f4f5f8;
+    /*background-color: #f4f5f8;*/
+    background-color: #141b29;
     background-attachment: fixed; 
     text-align: center;  
     font-size: 1rem;
     line-height: 1.4;
+    color: white;
     
     
-   
    
      
+}
+
+.capescolares{
+
+  background: url("../public/bus.jpeg");
+  background-attachment:fixed;
+  background-repeat: no-repeat, space;
+  background-size: auto;
+  background-position: center,;
+  box-sizing: border-box;
+  max-width: 1300px;
+}
+
+.capcoletivo{
+
+  background: url("../public/coletivo.png");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center,;
+  box-sizing: border-box;
+  max-width: 1300px;
+}
+.atualcoletivo{
+
+  background: url("../public/coletivo.png");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center,;
+  box-sizing: border-box;
+  max-width: 1300px;
+}
+.capemergencia{
+
+  background: url("../public/ambulancia.png");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  /*background-position: center,;*/
+  box-sizing: border-box;
+  max-width: 1300px;
+}
+
+.atualemergencia{
+
+  background: url("../public/ambulancia.png");
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center,;
+  box-sizing: border-box;
+  max-width: 1300px;
 }
 
 

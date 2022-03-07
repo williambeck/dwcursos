@@ -11,7 +11,9 @@
 
 
   /*background: url("../public/home.jpg");*/
-  background-color: rgb(255, 255, 255);
+  /*background-color: rgb(255, 255, 255);*/
+  background-color: #141b29;
+  color: white;
   font-family: 'ubuntu', sans-serif;
   min-height: 100vh;
   padding: 4rem 0;
@@ -21,6 +23,8 @@
   justify-content: center;
   align-items: center;
 }
+
+
 
 .footer {
   display: flex;
@@ -98,8 +102,10 @@
 .card:hover,
 .card:focus,
 .card:active {
-  color: #141b29;
-  border-color: #141b29;
+  /*color: #141b29;*/
+  color: #0070f3;
+  /*border-color: #141b29;*/
+  border-color: #0070f3;
 }
 
 .card h2 {

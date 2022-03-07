@@ -33,7 +33,7 @@ export default function Home() {
 
           <a href="/atual_emergencia" className={styles.card}>
             <h2>ATUALIZAÇÃO  &rarr;</h2>
-            <p>PARA ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA{/*quizzes!*/}</p>
+            <p>PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA{/*quizzes!*/}</p>
           </a>
 
           <a href="/atual_escolares" className={styles.card}>
@@ -61,7 +61,7 @@ export default function Home() {
 
           <a href="/cap_emergencia" className={styles.card}>
             <h2>CAPACITAÇÃO &rarr;</h2>
-            <p>PARA ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA</p>
+            <p>PARA CONDUTORES DE VEÍCULOS DE EMERGÊNCIA</p>
           </a>
 
           <a href="/cap_escolares" className={styles.card}>

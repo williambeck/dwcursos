@@ -13,7 +13,7 @@ function Home() {
             
             <Menu />
 
-            <div className=''><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='reciclagem'><br></br><br></br><br></br><br></br><br></br><br></br>
             <h1>CURSO DE RECICLAGEM PARA CONDUTORES INFRATORES</h1><br></br>
             <p>Se você foi notificado pelo DETRAN por ter atingido 20 ou mais pontos ativos em sua Carteira Nacional de Habilitação, e terá a sua CNH e o direito de dirigir suspensos. Além de cumprir o tempo determinado da penalidade de suspensão, você ainda deverá fazer o Curso de Reciclagem para Condutores Infratores, ofertado por Instituição devidamente reconhecida pelo Detran.</p><br></br>
             <p>Curso Rápido - 30hs/aula</p> <br/>
