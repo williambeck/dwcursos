@@ -404,3 +404,45 @@ section {
   flex-wrap: wrap;
   max-width: 800px;
 }
+
+/* ## SOBRE ## */
+
+.sobre{
+
+  margin: 0;
+  padding: 0;
+  /*box-sizing: border-box;*/    
+  background: url("../public/Shiny\ Overlay.svg");
+  height: 100vh; /*personalizar a imagem 100% da tela*/
+  min-height: 500px; /*altura minima da imagem*/
+  background-size: cover; /*ajusta a imagem para nao esticar a imagem*/
+  background-attachment: fixed;
+  font-family: "roboto", sans-serif;  
+
+}
+.sobre-text p  {
+  margin: 5px;
+  padding: 2px 0;  
+  color: #fff; /*cor da font*/
+  display:inline-block;    
+  font-size: 15px;
+  padding: 12px 36px;
+  font-weight: 300;
+  margin-top: 3px;
+  margin-left: 100px;   
+  
+}
+
+
+.sobre-text h2 {
+  color: #fff;      
+  /*text-decoration: underline;*/     
+  max-width: 1300px; /* maximo de largura*/
+  padding: 0 550px; /*0 na parte superior/inferior e 10px nas lateriais*/
+  margin: auto; /*centralizado*/
+  border-radius: 6px;
+  border: 2px solid #fff ;
+  box-shadow: rgb(158, 157, 157) 2px 3px 0 0;
+  
+ 
+}
