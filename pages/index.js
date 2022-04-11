@@ -2,8 +2,6 @@ import Head from 'next/head';
 import Menu from '../components/Menu';
 
 
-
-
 function Home() {
     return (
         <div>
@@ -13,7 +11,8 @@ function Home() {
                 <meta name="description" content="Site sobre ..." />
                 <meta name="author" content="William - DW" />
                 <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-                               
+                <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' /> 
+                             
                 
                 <title>DW - Home</title>
             </Head>
@@ -23,10 +22,11 @@ function Home() {
             <section className='top'>
                 <div className='max-width'>
                     <div className='top-content'>
-                        <div className='text-1'>Cursos 100% Online </div>
-                        <div className='text-2'>testando 2</div>
-                        <div className='text-3'>entre em contato conosco</div>
-                        <a href="/contato">entrar em contato</a>
+                        <div className='text-1'>CURSOS DE TRÂNSITO  </div>
+                        <div className='text-2'>EAD 100% Online </div>
+                        <div className='text-3'></div><br/>
+                        <a href="/cursos">Conheça os nossos cursos</a><br/>
+                        <a href="/contato">Matricule-se pelo canais de contato</a>
 
                     </div>
                 </div>

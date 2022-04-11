@@ -11,7 +11,7 @@ function Home() {
             </Head>
             <Menu />
             
-            <body className='sobre'> 
+            <body className='sobre'>
             <div className='sobre'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h2>Quem Somos !!!</h2><br></br><br></br><br></br>
                 {/*<p>A DW Treinamentos é uma empresa jovem com o objetivo simples de levar ate seus clientes um serviço seguro com qualidade e excelência desde o primeiro contato.

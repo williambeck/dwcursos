@@ -52,7 +52,7 @@ function Contato() {
         } catch (err) {
             setResponse({
                 type: 'error',
-                mensagem: "Erro: Tente mais tarde!"
+                mensagem: "Erro: Favor entrar em contato por WhatsApp!"
             });
         }
     }

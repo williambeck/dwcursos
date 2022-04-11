@@ -10,7 +10,7 @@ function Home() {
             </Head>
             <Menu />
 
-            <div className='atual_escolares'><br></br><br></br><br></br><br></br><br></br><br></br>
+            <div className='atualescolares'><br></br><br></br><br></br><br></br><br></br><br></br>
                 <h1>ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULOS DE TRANSPORTE DE ESCOLARES</h1><br></br>
                 <p>O curso de ATUALIZAÇÃO PARA CONDUTORES DE VEÍCULO DE TRANSPORTE COLETIVO DE PASSAGEIROS, é totalmente em EAD (Ensino a distância).</p>
                 <p>O curso é voltado aos condutores que queiram regularizar a sua profissão.</p>
