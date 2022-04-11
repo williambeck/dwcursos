@@ -17,7 +17,7 @@ function Home() {
                 <title>DW - Home</title>
             </Head>
             
-            <Menu />
+            <Menu /><br></br><br></br>
 
             <section className='top'>
                 <div className='max-width'>
