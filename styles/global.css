@@ -440,9 +440,10 @@ section {
   max-width: 1300px; /* maximo de largura*/
   padding: 0 550px; /*0 na parte superior/inferior e 10px nas lateriais*/
   margin: auto; /*centralizado*/
-  border-radius: 6px;
+  /*border-radius: 6px;
   border: 2px solid #fff ;
-  box-shadow: rgb(158, 157, 157) 2px 3px 0 0;
+  box-shadow: rgb(158, 157, 157) 2px 3px 0 0;*/
+  
   
  
 }
