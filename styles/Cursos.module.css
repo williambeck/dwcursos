@@ -12,8 +12,8 @@
 
   /*background: url("../public/home.jpg");*/
   /*background-color: rgb(255, 255, 255);*/
-  /*background-color: #101720;*/
-  background: url("../public/Shiny\ Overlay.svg");
+  background-color: red;
+  /*background: url("../public/Shiny\ Overlay.svg");*/
   font-family: 'Poppins', sans-serif;
   background-size: cover;
   background-attachment: fixed;
