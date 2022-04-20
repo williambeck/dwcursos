@@ -89,15 +89,32 @@ function Contato() {
                                     </div>
                                 </div>
 
-                                <div className="row">
+                                <div className="row"> 
                                   <i class="fab fa-facebook-square"></i>  
                                     <div className="info">
                                         <div className="head">
-                                          Facebook
+                                          <a href="https://www.facebook.com/profile.php?id=100076670628493" target="_blank">Facebook </a>
                                         </div>
                                         
+                                        
                                         <div className="sub-title">
-                                            Curta Nossa Página!
+                                        <a href="https://www.facebook.com/profile.php?id=100076670628493" target="_blank">Curta Nossa Página! </a>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div className="row">
+                                <i class="fab fa-instagram"></i>
+                                    <div className="info">
+                                        <div className="head">
+                                        <a href="https://www.instagram.com/dw.treinamentos/" target="_blank">Instagram </a>
+                                            
+                                        </div>
+                                        <div className="sub-title">
+                                        <a href="https://www.instagram.com/dw.treinamentos/" target="_blank">Nos Siga no Instagram! </a>
+                                        
                                         </div>
                                     </div>
                                 </div>
@@ -114,17 +131,7 @@ function Contato() {
                                     </div>
                                 </div>
 
-                                <div className="row">
-                                <i class="fab fa-instagram"></i>
-                                    <div className="info">
-                                        <div className="head">
-                                            Instagram
-                                        </div>
-                                        <div className="sub-title">
-                                        Nos Siga no Instagram!
-                                        </div>
-                                    </div>
-                                </div>
+                                
 
                             </div>
                         </div>

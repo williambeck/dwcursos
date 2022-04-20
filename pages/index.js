@@ -24,7 +24,7 @@ function Home() {
                     <div className='top-content'>
                         <div className='text-1'>CURSOS DE TRÂNSITO  </div>
                         <div className='text-2'>EAD 100% Online </div>
-                        <div className='text-3'></div><br/>
+                        {/*<div className='text-3'></div><br/>*/}
                         <a href="/cursos">Conheça os nossos cursos</a><br/>
                         <a href="/contato">Matricule-se pelo canais de contato</a>
 
